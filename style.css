@@ -1,0 +1,125 @@
+
+
+.fix1{
+	padding-top: 200px;
+	background:  linear-gradient(white, rgb(38, 225, 216));
+    background-size: cover;
+}
+.home-banner {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+}
+
+.home-name {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.nav-lists {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: rgb(112, 200, 255);
+}
+
+.home-propic {
+    height: 115px;
+    width: 110px;
+    border-radius: 140px;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.home-mid-section {
+    background-color: skyblue;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .carousel-item {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 340px;
+}
+.carousel .carousel-item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+.carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: transparent;
+	border: none;
+}
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 32px;
+    font-weight: bold;
+	font-style: oblique;
+}
+.fix2 {
+	margin-top: -10px;
+}
+.aboutmesection{
+	margin-top: 20%;
+
+}
